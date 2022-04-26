@@ -20,27 +20,55 @@
         <h2 id="scroll-instruction">( Scroll For Projects )</h2>
     </div>
     <div id="scroll-effect">
-        <h2 id="heading">Projects</h2>
+        <div id="project-section">
 
-        <div class="project">
-            <img class="project-image" src="Images/whack-a-mole.PNG" alt="Project one preview image">
-            <h3>Whack-A-Mole Javascript Game</h3>
-            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Massa id neque aliquam vestibulum. Semper feugiat 
-                nibh sed pulvinar proin gravida.
-            </p>
-        </div>
+            <h2 id="project-heading" class="heading">Projects</h2>
 
-        <div class="project">
-            <img class="project-image" src="Images/duck.PNG" alt="Project one preview image">
-            <h3>Adventures of Duck outdoors blog</h3>
-            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Massa id neque aliquam vestibulum. Semper feugiat 
-                nibh sed pulvinar proin gravida.
-            </p>
-        </div>
+            <div class="project">
+                <img class="project-image" src="Images/mole.png" width="650" height="338" alt="Project one preview image">
+                <h3 class="project-title">Whack-A-Mole Javascript Game</h3>
+                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Massa id neque aliquam vestibulum. Semper feugiat 
+                    nibh sed pulvinar proin gravida. Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Massa id neque aliquam vestibulum. Semper feugiat 
+                    nibh sed pulvinar proin gravida.
+                </p>
+            </div>
+
+            <div class="project">
+                <img class="project-image" src="Images/duck.png" width="650" height="338" alt="Project one preview image">
+                <h3 class="project-title">Outdoors Adventure Blog</h3>
+                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Massa id neque aliquam vestibulum. Semper feugiat 
+                    nibh sed pulvinar proin gravida. Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Massa id neque aliquam vestibulum. Semper feugiat 
+                    nibh sed pulvinar proin gravida.
+                </p>
+            </div>
+        </div>    
+    </div>
+    <div id="contact-page">
+
+
+        <form id="contact-form" action="">
+            <h2 id="contact-heading">Contact Me</h2>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Name"><br>
+            <label for="company">Company Name</label>
+            <input type="text" name="company" id="company" placeholder="Company"><br>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="Email"><br>
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" name="phone" id="phone" placeholder="Phone"><br>
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message" cols="50" rows="10" placeholder="Message"></textarea><br>
+            <input id="submit" type="submit" value="Submit">
+
+        </form>
     </div>
 
     <script src="app.js"></script> 
